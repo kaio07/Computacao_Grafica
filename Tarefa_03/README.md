@@ -81,7 +81,7 @@ Os Vetores bases criados, em seguida criamos uma matriz B da base da câmera que
 
 <p align="center">
   <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_03/Imagens/posicao_camera_codigo.png    >
-<p align="center">      Figura 7 - Código matriz View apósa alteração.   <p align="center">
+<p align="center">      Figura 7 - Código matriz View após a alteração.   <p align="center">
 </p> 
 
 <p align="center">

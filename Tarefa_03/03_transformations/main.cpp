@@ -64,29 +64,64 @@ void Display(void) {
     // Seleciona o Shader Program a ser utilizado.
     glUseProgram(shader_program);
 
+
+
     // Matriz Model ///////////////////////////////////////////////////////////
     // You will have to change the contents of this matrix for the exercises
+
+    
+
     float model_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
                              0.0f, 1.0f, 0.0f, 0.0f, 
-                             0.0f, 0.0f, 1.0f, 0.0f, 
+                             0.0f, 0.0f, 1.0f, 0.0f,
                              0.0f, 0.0f, 0.0f, 1.0f};
     glm::mat4 model_mat = glm::make_mat4(model_array);
 
+
     // Matriz View ////////////////////////////////////////////////////////////
     // You will have to change the contents of this matrix for the exercises
+    
+    glm::vec3 direcao_camera = glm::vec3(0.0f, 0.0f, 0.0f);
+    glm::vec3 posicao_camera    = glm::vec3(-0.1f, 0.1f, 0.25f);
+    glm::vec3 up_camera     =  glm::vec3(0.0f, 1.0f, 0.0f);
+  
+
+    glm::vec3 Zcamera = -glm::normalize(direcao_camera - posicao_camera);
+    glm::vec3 Xcamera = glm::normalize(glm::cross(up_camera, Zcamera));
+    glm::vec3 Ycamera = glm::normalize(glm::cross(Zcamera, Xcamera));
+
+   
+
+    glm::mat4 B = glm::mat4(glm::vec4(Xcamera.x, Ycamera.x, Zcamera.x, 0),
+                            glm::vec4(Xcamera.y, Ycamera.y, Zcamera.y, 0),
+                            glm::vec4(Xcamera.z, Ycamera.z, Zcamera.z, 0),
+                            glm::vec4(0, 0, 0, 1) );
+
+   
+    glm::mat4 T = glm::mat4(glm::vec4(1, 0, 0, 0),
+                            glm::vec4(0, 1, 0, 0),
+                            glm::vec4(0, 0, 1, 0),
+                            glm::vec4(-posicao_camera.x, -posicao_camera.y, -posicao_camera.z, 1)
+    );
+
+    glm::mat4 view_mat = B * T;
+
+/*
     float view_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
                             0.0f, 1.0f, 0.0f, 0.0f, 
                             0.0f, 0.0f, 1.0f, 0.0f, 
                             0.0f, 0.0f, 0.0f, 1.0f};
 
     glm::mat4 view_mat = glm::make_mat4(view_array);
-
+*/
     // Matriz Projection //////////////////////////////////////////////////////
     // You will have to change the contents of this matrix for the exercises
+    
+    float d = 0.5;
     float proj_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
                             0.0f, 1.0f, 0.0f, 0.0f, 
-                            0.0f, 0.0f, 1.0f, 0.0f, 
-                            0.0f, 0.0f, 0.0f, 1.0f};
+                            0.0f, 0.0f, 1.0f, -2*d, 
+                            0.0f, 0.0f, -d, 1.0f};
 
     glm::mat4 proj_mat = glm::make_mat4(proj_array);
 
@@ -148,7 +183,7 @@ int main(int argc, char** argv) {
     glutInitWindowPosition(100, 100);
 
     // Título da janela
-    glutCreateWindow("Modern OpenGL: Assignment 3");
+    glutCreateWindow("Modern OpenGL: Exercicio 3");
 
     // Load the OpenGL extensions
     GLenum err = glewInit();

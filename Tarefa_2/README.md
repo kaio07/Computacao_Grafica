@@ -1,12 +1,10 @@
-# Introdução a Computação Gráfica
-Repositório destinado aos trabalhos da disciplina de Introdução a Computação Gráfica
+## UFPB- CI
+Introdução a Computação Gráfica 2019.4
 
 ### Alunos
-#### ALAN HIORES FREIRES DE SALES LEITE - 11228436
+ALAN HIORES FREIRES DE SALES LEITE - 11228436
 
-#### KAIO MOURA DOS SANTOS - 11506860
-
-
+KAIO MOURA DOS SANTOS - 11506860
 
 ## Compilando e Executando um programa OpenGl Moderno
 O objetivo deste trabalho é verificar se o ambiente de desenvolvimento em OpenGL 3.3 está corretamente configurado.

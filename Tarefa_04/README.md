@@ -1,2 +1,7 @@
-# icg
-Repositório do material da disciplina de Introdução à Computação Gráfica do CI/UFPB.
+## UFPB- CI
+Introdução a Computação Gráfica 2019.4
+
+### Alunos
+ALAN HIORES FREIRES DE SALES LEITE - 11228436
+
+KAIO MOURA DOS SANTOS - 11506860

@@ -22,6 +22,6 @@ Após o export, executamos os comandos a seguir:
 
 O resultado obtido pode ser visualizado abaixo, juntamente com o link para visualização mais detalhada.
 
-<img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_2/Imagem.png  >
+<img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_02/Imagem.png >
 
 [Link do vídeo]( https://www.youtube.com/watch?v=L-54mgImxuw)

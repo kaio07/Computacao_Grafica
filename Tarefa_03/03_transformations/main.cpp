@@ -69,18 +69,75 @@ void Display(void) {
     // Matriz Model ///////////////////////////////////////////////////////////
     // You will have to change the contents of this matrix for the exercises
 
-    
-
-    float model_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
+     float model_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
                              0.0f, 1.0f, 0.0f, 0.0f, 
                              0.0f, 0.0f, 1.0f, 0.0f,
                              0.0f, 0.0f, 0.0f, 1.0f};
     glm::mat4 model_mat = glm::make_mat4(model_array);
 
 
+
+ //***********************************************************************************************************************************//
+//////  Exercício 1 Escala //////////////////////////////////////////// 
+
+/*
+    float Sx = 0.3;
+   float Sy = 1.5;
+   float Sz = 1.0;
+
+    float model_array[16] = {Sx, 0.0f, 0.0f, 0.0f, 
+                             0.0f, Sy, 0.0f, 0.0f, 
+                             0.0f, 0.0f, Sz, 0.0f, 
+                             0.0f, 0.0f, 0.0f, 1.0f};
+    glm::mat4 model_mat = glm::make_mat4(model_array);
+
+*/
+//***********************************************************************************************************************************//
+
+
+ //***********************************************************************************************************************************//
+//////  Exercício 2 Translação //////////////////////////////////////////// 
+ /*
+   float dx = 1.0;
+   float dy = 0.0;
+   float dz = 0.0;
+
+    float model_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
+                             0.0f, 1.0f, 0.0f, 0.0f, 
+                             0.0f, 0.0f, 1.0f, 0.0f, 
+                             dx, dy, dz, 1.0f};
+    glm::mat4 model_mat = glm::make_mat4(model_array);
+
+*/
+
+ //***********************************************************************************************************************************//    
+   
+
+
+   
+
     // Matriz View ////////////////////////////////////////////////////////////
     // You will have to change the contents of this matrix for the exercises
+   
+
+   /* 
     
+     float view_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
+                            0.0f, 1.0f, 0.0f, 0.0f, 
+                            0.0f, 0.0f, 1.0f, 0.0f, 
+                            0.0f, 0.0f, 0.0f, 1.0f};
+    glm::mat4 view_mat = glm::make_mat4(view_array);
+
+
+   */
+
+
+
+ //***********************************************************************************************************************************//
+//////  Exercício 4 Posição da Câmera ////////////////////////////////////////////    
+
+ 
+
     glm::vec3 direcao_camera = glm::vec3(0.0f, 0.0f, 0.0f);
     glm::vec3 posicao_camera    = glm::vec3(-0.1f, 0.1f, 0.25f);
     glm::vec3 up_camera     =  glm::vec3(0.0f, 1.0f, 0.0f);
@@ -106,6 +163,17 @@ void Display(void) {
 
     glm::mat4 view_mat = B * T;
 
+
+//***********************************************************************************************************************************//
+
+
+
+
+    
+
+    // Matriz Projection //////////////////////////////////////////////////////
+    // You will have to change the contents of this matrix for the exercises
+
 /*
     float view_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
                             0.0f, 1.0f, 0.0f, 0.0f, 
@@ -113,10 +181,13 @@ void Display(void) {
                             0.0f, 0.0f, 0.0f, 1.0f};
 
     glm::mat4 view_mat = glm::make_mat4(view_array);
-*/
-    // Matriz Projection //////////////////////////////////////////////////////
-    // You will have to change the contents of this matrix for the exercises
-    
+*/  
+
+
+
+//***********************************************************************************************************************************//
+//////  Exercício 3 Projeção Perspectiva Translação //////////////////////////////////////////// 
+
     float d = 0.5;
     float proj_array[16] = {1.0f, 0.0f, 0.0f, 0.0f, 
                             0.0f, 1.0f, 0.0f, 0.0f, 
@@ -124,6 +195,10 @@ void Display(void) {
                             0.0f, 0.0f, -d, 1.0f};
 
     glm::mat4 proj_mat = glm::make_mat4(proj_array);
+//************************************************************************************************************************************//
+
+    
+
 
     // Thr NDC is a left handed system, so we flip along the Z axis.
     // IMPORTANT: Do not change the contents of this matrix!!!!!!

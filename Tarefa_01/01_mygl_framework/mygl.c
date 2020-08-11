@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void PutPixel(Pixel p){
-	if(p.x>IMAGE_WIDTH || p.x<0 || p.y>IMAGE_HEIGHT || p.y<0) return; // Verificando se os pontos dentro do tamanho da imagem
+	if(p.x>IMAGE_WIDTH || p.x<0 || p.y>IMAGE_HEIGHT || p.y<0) return; //
 	
 	int pos = p.x * 4 + p.y * 4 * IMAGE_WIDTH;
 	
@@ -36,7 +36,7 @@ void DrawLine(Pixel inicial, Pixel final){
 		incliY = -1;
 
 	PutPixel(inicial);
-	Pixel linha = { inicial.x, inicial.y, inicial.red, inicial.green, inicial.blue, inicial.alpha }; //Pinta a linha se movimentando
+	Pixel linha = { inicial.x, inicial.y, inicial.red, inicial.green, inicial.blue, inicial.alpha }; //Colore linha
 
 	if (dx == 0) {
 		if (y1 > y0) {    
@@ -138,12 +138,18 @@ void MyGlDraw(void) {
 	PutPixel(p4);
 	PutPixel(p5);*/
 
+
 	/* Função DrawLine*/
-	//DrawLine(p1,p2);
-	//DrawLine(p3,p4);
-	//DrawLine(p5,p6);
-   
-	DrawTriangle(p1, p2, p3);
-	DrawTriangle(p4, p5, p6);
+	
+	//DrawLine(p2,p3);
+	//DrawLine(p4,p5);
+	//DrawLine(p6,p1);
+
+
+
+	DrawTriangle(p4, p1, p6);
+
+
+
 
    }

@@ -16,12 +16,12 @@ O objetivo da atividade é implementar algoritmos para a rasterização de primi
 Foram implementadas 3 funções principais durante a atividade, a primeira se chama PutPixel e consiste em rasterizar um ponto na memória de vídeo, recebendo com parâmetros a posição do píxel na tela (x,y) e sua cor (RGBA). Diferente do sistema de coordenadas cartesiano,no sistemas de computação gráfica a origem parte do píxel superior esquerdo, e a direção positiva do eixo y é para baixo.
 
 <p align="center">
-  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/52668397-31901400-2ef2-11e9-9e67-d7e18b1d0a31.png>
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/1.png>
 </p> 
 
 
 <p align="center">
-  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/Captura%20de%20tela%20de%202020-08-11%2001-24-49.png>
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/2.png>
 <p align="center">  Figura 1 - Função PutPixel <p align="center">
 </p> 
 
@@ -40,12 +40,12 @@ Esta função rasteriza uma linha na tela, recebendo como parâmetros dois vért
 O interessante deste algoritmo é que utiliza apenas adição, subtração de inteiros e deslocamento de bits, operações muito simples e baratas em termos de processamento, o algoritmo determina os pontos que serão coloridos a fim de realizar uma aproximação de uma linha reta entre dois pontos.
 
 <p align="center">
-  <img src=     >
+  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/3.png   >
 <p align="center">  Figura 3 - Função DrawLine<p align="center">
 </p> 
 
 <p align="center">
-  <img src=  >
+  <img src=https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/4.png  >
 <p align="center">  Figura 4 - DrawLine <p align="center">
 </p> 
 
@@ -55,11 +55,11 @@ Esta função desenha as arestas de um triângulo, recebendo como parâmetro tr�
 
 
 <p align="center">
-  <img src=    >
+  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/5.png  >
 <p align="center">  Figura 5 - Função DrawTriangle<p align="center">
 </p> 
 
 <p align="center">
-  <img src=  >
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/6.png >
 <p align="center">  Figura 6 - DrawTriangle <p align="center">
 </p> 

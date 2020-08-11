@@ -28,8 +28,7 @@ Se todas as ferramentas estão instaladas corretamente obtemos a seguinte imagem
 
 
 <p align="center">
-  <img src=     >
-<p align="center">  <p align="center">
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/1i.png    >
 </p> 
 
 

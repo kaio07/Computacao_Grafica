@@ -40,7 +40,7 @@ Esta função rasteriza uma linha na tela, recebendo como parâmetros dois vért
 O interessante deste algoritmo é que utiliza apenas adição, subtração de inteiros e deslocamento de bits, operações muito simples e baratas em termos de processamento, o algoritmo determina os pontos que serão coloridos a fim de realizar uma aproximação de uma linha reta entre dois pontos.
 
 <p align="center">
-  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/Captura%20de%20tela%20de%202020-08-11%2001-24-49.png>
+  <img src=     >
 <p align="center">  Figura 3 - Função DrawLine<p align="center">
 </p> 
 
@@ -55,7 +55,7 @@ Esta função desenha as arestas de um triângulo, recebendo como parâmetro tr�
 
 
 <p align="center">
-  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/Captura%20de%20tela%20de%202020-08-11%2001-24-49.png>
+  <img src=    >
 <p align="center">  Figura 5 - Função DrawTriangle<p align="center">
 </p> 
 

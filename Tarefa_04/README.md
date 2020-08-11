@@ -37,9 +37,30 @@ Se todas as ferramentas estão instaladas corretamente obtemos a seguinte imagem
 Modificar o vertex shader (arquivo vertex_shader.glsl), de forma que ele passe a incluir, além do modelo de iluminação ambiente, também o modelo difuso. Para isto, será necessário calcular o novo valor do vetor normal N, após as transformações feitas pela matriz Model, bem como o vetor L que aponta do vértice para a fonte de luz. 
 
 
+<p align="center">
+  <img src=     >
+<p align="center">  <p align="center">
+</p> 
+
 ### Exercício 2 - Implementação do Modelo de Reflexão Especular
 
 Modificar o vertex shader (arquivo vertex_shader.glsl) do exercício anterior de forma que ele passe
 a incluir, além do modelo de iluminação ambiente e difuso, também o modelo especular, ou de Phong.
 Para isto, será necessário calcular o vetor R, de reflexão da luz L, e o vetor da câmera V, que aponta
-do vértice em questão para a câmera. Abaixo seguem as sugestões de cálculo destes dois vetores:
+do vértice em questão para a câmera. 
+
+As modificações também serão realizadas através de alterações no vertex shader. Devemos seguir as seguintes instruçõees: Calcular o vetor R,de reflexão da luz L, calcular o vetor da câmera V que aponta do vértice em questão para a câmera, ajustar o cálculo do modelo de iluminação para o modelo de Phong.
+De acordo com o que foi pedido na tarefa, serão adicionados o cálculo do vetor de reflexão R e o vetor da câmera V. Após o cálculo dos vetores, vamoscalcular o modelo de iluminação de reflexão especular, com o valor de n = 64.
+
+
+<p align="center">
+  <img src=     >
+<p align="center">  <p align="center">
+</p> 
+
+
+<p align="center">
+  <img src=     >
+<p align="center">  <p align="center">
+</p> 
+

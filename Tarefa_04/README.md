@@ -16,7 +16,11 @@ Após as instalações do programa disponibilizado pelo professor executamos os 
 
 ````
 $ g++ -Wall -Wextra -Wpedantic -std=c++17 -O0 -g3 -DDEBUG main.cpp -lglut -lGLEW -lGLU -lGL -o shading_gl
+````
+````
 $ make
+````
+````
 $./shading_gl
 
 ````

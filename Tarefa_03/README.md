@@ -90,5 +90,3 @@ Os Vetores bases criados, em seguida criamos uma matriz B da base da câmera que
 </p> 
 
 
-
-### EXERCÍCIO 5 - TRANSFORMAÇÕES LIVRES

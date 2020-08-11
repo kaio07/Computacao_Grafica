@@ -27,7 +27,7 @@ Foram implementadas 3 funções principais durante a atividade, a primeira se ch
 
 
 <p align="center">
-  <img src=  >
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/put.png >
 <p align="center">  Figura 2 - PutPixel <p align="center">
 </p> 
 

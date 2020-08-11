@@ -15,6 +15,17 @@ O objetivo da atividade é implementar algoritmos para a rasterização de primi
 ## Exercício 1 - PutPixel
 Foram implementadas 3 funções principais durante a atividade, a primeira se chama PutPixel e consiste em rasterizar um ponto na memória de vídeo, recebendo com parâmetros a posição do píxel na tela (x,y) e sua cor (RGBA). Diferente do sistema de coordenadas cartesiano,no sistemas de computação gráfica a origem parte do píxel superior esquerdo, e a direção positiva do eixo y é para baixo.
 
+<p align="center">
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/52668397-31901400-2ef2-11e9-9e67-d7e18b1d0a31.png>
+</p> 
+
+
+<p align="center">
+  <img src=>
+<p align="center">  Figura 1 - Código Matriz Model  após a escala <p align="center">
+</p> 
+
+
 ## Exercício 2 - DrawLine
 Esta função rasteriza uma linha na tela, recebendo como parâmetros dois vértices (inicial e final), o algoritmo implementado para rasterização foi o de Bresenham, que permite determinar quais os pontos numa matriz de base quadriculada que devem ser destacados para atender o grau de inclinação de um ângulo. 
 

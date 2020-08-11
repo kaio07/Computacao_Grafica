@@ -31,6 +31,8 @@ Se todas as ferramentas estão instaladas corretamente obtemos a seguinte imagem
   <img src=     >
 <p align="center">  <p align="center">
 </p> 
+
+
 ### Exercício 1 - Implementação do Modelo de Reflexão Difuso
 Modificar o vertex shader (arquivo vertex_shader.glsl), de forma que ele passe a incluir, além do modelo de iluminação ambiente, também o modelo difuso. Para isto, será necessário calcular o novo valor do vetor normal N, após as transformações feitas pela matriz Model, bem como o vetor L que aponta do vértice para a fonte de luz. 
 

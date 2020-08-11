@@ -43,7 +43,7 @@ Modificar o vertex shader (arquivo vertex_shader.glsl), de forma que ele passe a
 ##### Obtemos o resultado:
 
 <p align="center">
-  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/2i.png   >
+  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/2.1i.png >
 </p> 
 
 ### Exercício 2 - Implementação do Modelo de Reflexão Especular

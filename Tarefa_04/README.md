@@ -35,10 +35,12 @@ Se todas as ferramentas estão instaladas corretamente obtemos a seguinte imagem
 ### Exercício 1 - Implementação do Modelo de Reflexão Difuso
 Modificar o vertex shader (arquivo vertex_shader.glsl), de forma que ele passe a incluir, além do modelo de iluminação ambiente, também o modelo difuso. Para isto, será necessário calcular o novo valor do vetor normal N, após as transformações feitas pela matriz Model, bem como o vetor L que aponta do vértice para a fonte de luz. 
 
+<p align="center">
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/2c.png   >
+</p> 
 
 <p align="center">
-  <img src=     >
-<p align="center">  <p align="center">
+  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/2i.png   >
 </p> 
 
 ### Exercício 2 - Implementação do Modelo de Reflexão Especular
@@ -53,13 +55,12 @@ De acordo com o que foi pedido na tarefa, serão adicionados o cálculo do vetor
 
 
 <p align="center">
-  <img src=     >
-<p align="center">  <p align="center">
+  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/3c.png  >
+
 </p> 
 
 
 <p align="center">
-  <img src=     >
-<p align="center">  <p align="center">
+  <img src=  https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_04/imagens/3i.png  >
 </p> 
 

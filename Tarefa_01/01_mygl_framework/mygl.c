@@ -130,13 +130,13 @@ void MyGlDraw(void) {
 	Pixel p5 = {295, 350, 255, 255, 0, 255}; // Yellow
 	Pixel p6 = {128, 450, 80, 99, 70, 255}; // Random
 	
-	/*
+	
 	//Função PutPixel
 	PutPixel(p1);
 	PutPixel(p2);
 	PutPixel(p3);
 	PutPixel(p4);
-	PutPixel(p5);*/
+	PutPixel(p5);
 
 
 	/* Função DrawLine*/
@@ -147,7 +147,7 @@ void MyGlDraw(void) {
 
 
 
-	DrawTriangle(p4, p1, p6);
+	//DrawTriangle(p4, p1, p6);
 
 
 

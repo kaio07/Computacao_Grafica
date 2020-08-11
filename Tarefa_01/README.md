@@ -21,16 +21,45 @@ Foram implementadas 3 funções principais durante a atividade, a primeira se ch
 
 
 <p align="center">
-  <img src=>
-<p align="center">  Figura 1 - Código Matriz Model  após a escala <p align="center">
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/Captura%20de%20tela%20de%202020-08-11%2001-24-49.png>
+<p align="center">  Figura 1 - Função PutPixel <p align="center">
 </p> 
 
+
+<p align="center">
+  <img src=  >
+<p align="center">  Figura 2 - PutPixel <p align="center">
+</p> 
 
 ## Exercício 2 - DrawLine
 Esta função rasteriza uma linha na tela, recebendo como parâmetros dois vértices (inicial e final), o algoritmo implementado para rasterização foi o de Bresenham, que permite determinar quais os pontos numa matriz de base quadriculada que devem ser destacados para atender o grau de inclinação de um ângulo. 
 
+
+
 ### Algoritmo de Bresenham
 O interessante deste algoritmo é que utiliza apenas adição, subtração de inteiros e deslocamento de bits, operações muito simples e baratas em termos de processamento, o algoritmo determina os pontos que serão coloridos a fim de realizar uma aproximação de uma linha reta entre dois pontos.
 
+<p align="center">
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/Captura%20de%20tela%20de%202020-08-11%2001-24-49.png>
+<p align="center">  Figura 3 - Função DrawLine<p align="center">
+</p> 
+
+<p align="center">
+  <img src=  >
+<p align="center">  Figura 4 - DrawLine <p align="center">
+</p> 
+
 ## Exercício 3 - DrawTriangle
 Esta função desenha as arestas de um triângulo, recebendo como parâmetro três vértices, essa função consiste em chamar a função DrawLine três vezes, assim formando o desenho do triângulo desejado.
+
+
+
+<p align="center">
+  <img src= https://github.com/kaio07/Computacao_Grafica/blob/master/Tarefa_01/01_mygl_framework/imagens/Captura%20de%20tela%20de%202020-08-11%2001-24-49.png>
+<p align="center">  Figura 5 - Função DrawTriangle<p align="center">
+</p> 
+
+<p align="center">
+  <img src=  >
+<p align="center">  Figura 6 - DrawTriangle <p align="center">
+</p> 
